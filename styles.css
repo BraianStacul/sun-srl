@@ -717,8 +717,9 @@ nav {
 
 /* ============ */
 
-.room__container {
+.room__container .room__grid {
     padding-block: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .room__container :is(.section__subheader, .section__header) {
@@ -732,8 +733,6 @@ nav {
     margin-top: 4rem;
     display: grid;
     gap: 0 1rem;
-
-    grid-template-columns: repeat(3, 1fr);
 }
 
 .room__card img {
@@ -773,23 +772,4 @@ nav {
 
 .room__card__details h3 span {
     font-size: 0.8rem;
-}
-
-@media (width < 675px) {
-    .room__grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media (width > 768px) {
-    .room__grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (width > 1024px) {
-    .room__grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-    }
 }
