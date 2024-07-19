@@ -717,17 +717,17 @@ nav {
 
 /* ============ */
 
-.room__container .room__grid {
+.rents__container .rents__grid {
     padding-block: 5rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
-.room__container :is(.section__subheader, .section__header) {
+.rents__container :is(.section__subheader, .section__header) {
     padding-inline: 1rem;
     text-align: center;
 }
 
-.room__grid {
+.rents__grid {
     max-width: 1500px;
     margin-inline: auto;
     margin-top: 4rem;
@@ -735,11 +735,11 @@ nav {
     gap: 0 1rem;
 }
 
-.room__card img {
+.rents__card img {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-.room__card__details {
+.rents__card__details {
     margin-inline: 1rem;
     padding: 1rem;
     display: flex;
@@ -752,7 +752,7 @@ nav {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-.room__card__details h4 {
+.rents__card__details h4 {
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     font-weight: 800;
@@ -760,16 +760,16 @@ nav {
     color: var(--text-dark);
 }
 
-.room__card__details p {
+.rents__card__details p {
     color: var(--text-light);
 }
 
-.room__card__details h3 {
+.rents__card__details h3 {
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--secondary-color);
 }
 
-.room__card__details h3 span {
+.rents__card__details h3 span {
     font-size: 0.8rem;
 }
